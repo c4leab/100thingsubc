@@ -1,3 +1,8 @@
-# 100 things to do at UBC
+# 101 things to do at UBC
 
 Inspired by 101 things to do at MIT
+
+
+Stuff learned:
+
+- JavaScript DOM manipulation (W3Schools)
