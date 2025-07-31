@@ -8,24 +8,29 @@
 <body>
     <h1>100 Things to Do Before You Graduate from UBC</h1>
     <ol> 
-        <li class="100" data-id="0">Visit the Rose Garden 
-            <button vote-btn></button> 
+        <li class="100" data-id="0">
+            <button class="vote-btn">Vote</button> 
             <span class="vote-count"></span></li>
-        <li class="100" data-id="1">Visit the Musuem of Anthropliogy (MOA) 
-            <button vote-btn></button>
+        <li class="100" data-id="1">
+            <button class="vote-btn">Vote</button>
             <span class="vote-count"></span></li>
-        <li class="100" data-id="2">Visit the Beady Biodiversity Musuem 
-            <button vote-btn>Vote</button> 
+        <li class="100" data-id="2">
+            <button class="vote-btn">Vote</button> 
             <span class="vote-count"></span></li>
-        <li class="100" data-id="3">Visit Every Student Residence
-             <button vote-btn>Vote</button> 
+        <li class="100" data-id="3">
+             <button class="vote-btn">Vote</button> 
              <span class="vote-count"></span></li>
-        <li class="100" data-id="4">Visit Wreck Beach 
-            <button vote-btn>Vote</button> 
+        <li class="100" data-id="4">
+            <button class="vote-btn">Vote</button> 
             <span class="vote-count"></span></li>
     </ol>
 
     <script>
+
+        const btns = document.getElementsByClassName("vote-btns"); 
+        const counts = document.getElementsByClassName("vote-count");
+        const list-items = document.getElementsByClassName("100");
+
 
         const ubcThings = [
             {   id: 0,
@@ -48,12 +53,7 @@
                 title: "Visit Wreck Beach",
                 votes: 0
             }
-        ]
-
-
-
-
-
+        ] 
 
 
     </script>
